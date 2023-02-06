@@ -9,7 +9,7 @@ schema:                            # required
       type: object
       description: "name"
       properties:
-        dns_hostname:               # parameter
+        name:               # parameter
           type: string
           description: "The hostname for the Route53 Hosted Zone"
           default: root
