@@ -7,8 +7,7 @@ Mappings:
   SubnetConfig:
     name:
       policyname: '{{ environment.inputs.name}}'         # customization parameter
-    DNS:
-      Hostname: '{{ environment.inputs.dns_hostname}}' # customization parameter      
+# customization parameter      
 Resources:
   RootRole:
     Type: 'AWS::IAM::Role'
