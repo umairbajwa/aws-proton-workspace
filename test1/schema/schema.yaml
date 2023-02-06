@@ -1,0 +1,15 @@
+schema:                            # required
+  format:                          # required
+    openapi: "3.0.0"               # required
+  # required              defined by administrator
+  environment_input_type: "test"
+  types:                           # required
+    # defined by administrator
+    test:
+      type: object
+      description: "name"
+      properties:
+        dns_hostname:               # parameter
+          type: string
+          description: "The hostname for the Route53 Hosted Zone"
+          default: root
